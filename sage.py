@@ -2846,8 +2846,8 @@ def make_AG(condensed_v_data, condensed_data, state_groups, sev_sinks, datafile,
                 
                 os.system("dot -Tpng "+dirname+'/'+out_f_name+".dot -o "+dirname+'/'+out_f_name+".png")
                 os.system("dot -Tsvg "+dirname+'/'+out_f_name+".dot -o "+dirname+'/'+out_f_name+".svg")
-                if DOCKER:
-                    os.system("rm "+dirname+'/'+out_f_name+".dot")
+                #if DOCKER:
+                    #os.system("rm "+dirname+'/'+out_f_name+".dot")
                 #print('~~~~~~~~~~~~~~~~~~~~saved')
             print('#', sep=' ', end=' ', flush=True)
         #print('total high-sev states:', len(path_info))
