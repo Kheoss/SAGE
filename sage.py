@@ -2888,7 +2888,7 @@ startTimes = [] # We cheat a bit: In case user filters to only see alerts from (
 #                    we record the first alert just to get the real time-elapsed since first alert
     
 outaddress = ""
-path_to_ini = "FlexFringe/ini/markov_chain.ini"
+path_to_ini = "FlexFringe/ini/spdfa-config.ini"
 
 modelname = expname+'.txt'#'test-trace-uni-serGroup.txt'
 datafile = expname+'.txt'#'trace-uni-serGroup.txt'
